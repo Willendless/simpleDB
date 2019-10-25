@@ -1,14 +1,17 @@
 package simpledb;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 import java.util.NoSuchElementException;
 
 import org.junit.Test;
 
-import simpledb.systemtest.SimpleDbTestBase;
-
-import static org.junit.Assert.*;
 import junit.framework.Assert;
 import junit.framework.JUnit4TestAdapter;
+import simpledb.TupleDesc.TDItem;
+import simpledb.systemtest.SimpleDbTestBase;
 
 public class TupleDescTest extends SimpleDbTestBase {
 

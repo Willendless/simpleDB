@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="0" name="simpledb.HeapFileReadTest" time="0.48" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.1+13-LTS"/>
+    <property name="sun.boot.library.path" value="D:\code language\Java\jdk-11.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Jerry\Desktop\simpleDB\simple-db-hw"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="HeapFileReadT*"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Jerry\Desktop\simpleDB\simple-db-hw"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.1+13-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="D:\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\software\JAVAtools\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\code language\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\software\JAVAtools\apache-maven-3.6.2\\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Java\jdk-10.0.2\bin;D:\IDE\arm_ads1.2\ADSv1_2\bin;D:\IDE\arm ads1.2\bin;D:\software\Git\cmd;D:\software\mysql-5.7.26-winx64\bin;D:\util prog\putty\;C:\Program Files\Git\bin;D:\software\Matlab\19a\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\software\miniconda;D:\software\miniconda\Library\mingw-w64\bin;D:\software\miniconda\Library\usr\bin;D:\software\miniconda\Library\bin;D:\software\miniconda\Scripts;D:\code language\Java\jdk\bin;C:\Users\Jerry\AppData\Local\Microsoft\WindowsApps;D:\code language\Python;C:\Program Files (x86)\Vim\vim81;D:\work tool\mysql-8.0.13-winx64\bin;D:\software\quartus\quartus\modelsim_ase\win32aloem;D:\software\;D:\IDE\PyCharm 2019.1.2\bin;;D:\software\mysql-5.7.26-winx64\bin;D:\software\Microsoft VS Code\bin;D:\software\texlive\2019\bin\win32;."/>
+    <property name="maven.conf" value="D:\software\JAVAtools\apache-maven-3.6.2\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\software\JAVAtools\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Jerry"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Jerry"/>
+    <property name="java.class.path" value="D:\software\JAVAtools\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=HeapFileReadT*"/>
+    <property name="java.home" value="D:\code language\Java\jdk-11.0.1"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="maven.home" value="D:\software\JAVAtools\apache-maven-3.6.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="simpledb.HeapFileReadTest" name="getId" time="0.388"/>
+  <testcase classname="simpledb.HeapFileReadTest" name="testIteratorBasic" time="0.027"/>
+  <testcase classname="simpledb.HeapFileReadTest" name="getTupleDesc" time="0.011"/>
+  <testcase classname="simpledb.HeapFileReadTest" name="testIteratorClose" time="0.031"/>
+  <testcase classname="simpledb.HeapFileReadTest" name="readPage" time="0.012"/>
+  <testcase classname="simpledb.HeapFileReadTest" name="numPages" time="0.011"/>
+</testsuite>
